@@ -1,3 +1,3 @@
-export * from './components/Alert/Info';
-export * from './components/Alert/Success ';
-export * from './components/Buttons/Primary';
+import 'index.css';
+export * from './components/Alert/Alert';
+export * from './components/Button/Button';
