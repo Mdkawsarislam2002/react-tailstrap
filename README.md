@@ -2,13 +2,13 @@
 
 A Component Library for React and Tailwindcss Tailwindcss is a utility base CSS framework and Bootstrap is a component base CSS Framework.
 
-And react-tailstrap is a tailwindcss library that builds with tailwindcss but that have all bootstrap component it means you can use Bootstrap components into your tailwindcss projects
+And [react-tailstrap](https://github.com/Mdkawsarislam2002/react-tailstrap) is a tailwindcss library that builds with tailwindcss but that have all bootstrap component it means you can use Bootstrap components into your tailwindcss projects
 
 ### Get Started
 
 1.  Install [Tailwindcss](https://tailwindcss.com/docs/installation) in your project
 
-2.  Install react-tailstrap using npm
+2.  Install [react-tailstrap](https://www.npmjs.com/package/react-tailstrap) using npm
 
 ```npm
 npm i react-tailstrap
@@ -26,20 +26,19 @@ content: [
 
 or
 
-```
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/react-tailstrap/src/**/*.tsx",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/react-tailstrap/src/**/*.tsx',
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 };
-
 ```
 
 ### How to user react-tailstrap
@@ -65,4 +64,4 @@ const App = () => {
 export default App;
 ```
 
-## Others Components are coming soon
+## Others Components are coming soon - ( under Development )
