@@ -1,8 +1,10 @@
 ## React-TailStrap
 
-A Component Library for React and Tailwindcss Tailwindcss is a utility base CSS framework and Bootstrap is a component base CSS Framework.
+A Component Library for React and Tailwindcss.
+Tailwindcss is a utility base CSS framework and Bootstrap is a component base CSS Framework.
 
-And [react-tailstrap](https://github.com/Mdkawsarislam2002/react-tailstrap) is a tailwindcss library that builds with tailwindcss but that have all bootstrap component it means you can use Bootstrap components into your tailwindcss projects
+And [react-tailstrap](https://github.com/Mdkawsarislam2002/react-tailstrap) is a tailwindcss library that builds on top of tailwindcss but that have all bootstrap component it means you can use Bootstrap components into your tailwindcss projects
+And gonna provide others components also.
 
 ### Get Started
 
@@ -20,7 +22,7 @@ npm i react-tailstrap
 content: [
   './index.html',
   './src/**/*.{js,ts,jsx,tsx}',
-  './node_modules/react-tailstrap/src/**/*.tsx',
+  './node_modules/react-tailstrap/src/**/*.{js,ts,jsx,tsx}',
 ];
 ```
 
@@ -32,7 +34,7 @@ module.exports = {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
-    './node_modules/react-tailstrap/src/**/*.tsx',
+    './node_modules/react-tailstrap/src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
@@ -64,4 +66,6 @@ const App = () => {
 export default App;
 ```
 
-## Others Components are coming soon - ( under Development )
+## Others Components are coming soon
+
+### under Development / unusable version
